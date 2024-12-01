@@ -1,0 +1,19 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.footerText {
+  font-size: x-large;
+  color: #0a222c;
+}
+
+@media only screen and (max-width: 920px) {
+  .footerText {
+    font-size: medium;
+    text-align: center;
+  }
+}

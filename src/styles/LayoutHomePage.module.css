@@ -1,0 +1,28 @@
+.layoutHomeGrid {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 9.4rem 1fr 5rem;
+  grid-template-areas:
+    "header header header"
+    "content content content"
+    "footer footer footer";
+}
+.header {
+  grid-area: header;
+  background-color: white;
+}
+.content {
+  grid-area: content;
+  background-color: white;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #9a9b9c;
+}
+@media only screen and (max-width: 920px) {
+  .layoutHomeGrid {
+    grid-template-rows: 7rem 1fr 5rem;
+  }
+}

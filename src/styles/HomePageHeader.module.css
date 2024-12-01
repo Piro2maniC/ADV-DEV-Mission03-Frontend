@@ -1,0 +1,33 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 20rem 0 20rem;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: auto;
+  width: 13rem;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbarButton {
+  font-weight: bolder;
+  font-size: 1rem;
+  color: #0073cf;
+}
+
+.navbarButton:hover {
+  cursor: pointer;
+
+  color: #b71234;
+}
