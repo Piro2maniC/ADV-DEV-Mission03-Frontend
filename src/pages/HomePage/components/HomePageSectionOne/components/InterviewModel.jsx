@@ -89,7 +89,7 @@ function InterviewModel() {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>AI Interview Model</h2>
+      <h2 className={styles.title}>AI Interview Practice</h2>
       
       {!interviewStarted ? (
         <form onSubmit={handleSubmit} className={styles.form}>
