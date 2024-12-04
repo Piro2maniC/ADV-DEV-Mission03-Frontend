@@ -73,8 +73,7 @@
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To run this Application you will need to clone both the Frontend Repository and the [Backend Repository][Backend-url].
 
 ### Prerequisites
 
@@ -172,3 +171,5 @@ Ensure you have the following installed on your system:
 [product-screenshot]: images/project-screenshot1.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[Backend-url]: https://github.com/Piro2maniC/ADV-DEV-Mission03-Backend
+
